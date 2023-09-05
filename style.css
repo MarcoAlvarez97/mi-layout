@@ -1,0 +1,59 @@
+:root {
+  /*bg colors*/
+  --Negro: #02050e;
+  --primario: #1e50ff;
+  --secundario: #272d37;
+  /* Text Colors */
+  --text-gris: #adb9c7;
+  --text-blanco: #f3f4f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*TODO */
+  /* font-family: ;*/
+  text-decoration: none;
+  list-style-type: none;
+  /* font-size: 62.5%; /*1 rem = 10px*/
+}
+/*---------HEADER-----------*/
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--secundario);
+  height: 6.5rem;
+  padding: 0 3rem;
+}
+
+.logo {
+  height: 40%;
+}
+/*--------BARRA DE NAVEGACION---------*/
+.navbar,
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  gap: 10rem;
+}
+
+.navbar-list {
+  gap: 3rem;
+}
+
+.navbar-list a {
+  color: var(--text-gris);
+  font-size: 1.4rem;
+}
+
+.navbar-list li:first-child > a {
+  color: var(--text-blanco);
+  font-weight: 600;
+}
