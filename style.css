@@ -27,8 +27,8 @@ header {
   justify-content: space-between;
   align-items: center;
   background: var(--secundario);
-  height: 6.5rem;
-  padding: 0 3rem;
+  height: 4.063rem;
+  padding: 0 1.875rem;
 }
 
 .logo {
@@ -37,10 +37,10 @@ header {
 /*---------ESTILO DE ICONO DE CARRITO ----------*/
 .cart-icon {
   font-weight: 600;
-  height: 3rem;
+  height: 1.875rem;
   cursor: pointer;
-  border-radius: 1rem;
-  padding: 0.5rem 1rem;
+  border-radius: 0.6rem;
+  padding: 0.3rem 0.6rem;
   margin-right: 1rem;
   color: var(--text-blanco);
 }
@@ -53,16 +53,16 @@ header {
 }
 
 .navbar {
-  gap: 10rem;
+  gap: 6.25rem;
 }
 
 .navbar-list {
-  gap: 3rem;
+  gap: 1.875rem;
 }
 
 .navbar-list a {
   color: var(--text-gris);
-  font-size: 1.4rem;
+  font-size: 0.875rem;
 }
 
 .navbar-list li:first-child > a {
@@ -85,9 +85,9 @@ main {
 /*--- HERO SECTION ---*/
 
 #hero {
-  margin-top: 5rem;
-  padding: 5rem 0;
-  max-width: 100rem;
+  margin-top: 3.125rem;
+  padding: 3.125rem 0;
+  max-width: 62.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +96,7 @@ main {
 .hero-info {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.25rem;
   width: 50%;
 }
 
@@ -104,7 +104,7 @@ main {
   font-size: 3rem;
   width: 80%;
   font-weight: 800;
-  min-width: 50rem;
+  min-width: 31.25rem;
   color: var(--text-blanco);
 }
 
@@ -120,12 +120,12 @@ main {
 
 /*----BOTON----*/
 .hero-info a {
-  border-radius: 1rem;
+  border-radius: 0.625rem;
   font-size: 0.875rem;
   background: var(--primario);
   color: var(--text-blanco);
-  padding: 0.5rem 0;
-  width: 12rem;
+  padding: 0.313rem 0;
+  width: 7.5rem;
   text-align: center;
 }
 
@@ -139,30 +139,30 @@ main {
 .hero-card {
   color: var(--text-blanco);
   background-color: var(--secundario);
-  width: 30rem;
-  padding: 2rem;
-  border-radius: 1.5rem;
+  width: 18.75rem;
+  padding: 1.25rem;
+  border-radius: 0.938rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.25rem;
 }
 
 .hero-card-info {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.625rem;
 }
 
 .hero-card-top {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 1rem;
+  gap: 0.625rem;
 }
 
 .hero-card-top h3 {
-  font-weight: 60rem;
+  font-weight: 37.5rem;
   font-size: 1rem;
   white-space: nowrap;
   overflow: hidden;
@@ -172,21 +172,21 @@ main {
 .hero-card-top span {
   background-color: var(--primario);
   text-align: center;
-  width: 5rem;
-  padding: 0.3rem 0;
+  width: 3.125rem;
+  padding: 0.188rem 0;
   font-size: 0.875rem;
-  border-radius: 1rem;
+  border-radius: 0.625rem;
 }
 
 .hero-card-creator {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.313rem;
 }
 
 .hero-card-creator img {
-  height: 4rem;
-  width: 4rem;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 .creator-info p:first-child {
