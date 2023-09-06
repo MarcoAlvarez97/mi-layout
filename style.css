@@ -18,7 +18,7 @@
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   list-style-type: none;
-  /* font-size: 62.5%; /*1 rem = 10px*/
+  /*font-size: 62.5%; /*1 rem = 10px*/
 }
 /*---------HEADER-----------*/
 header {
@@ -101,7 +101,7 @@ main {
 }
 
 .hero-info h1 {
-  font-size: 4.8rem;
+  font-size: 3rem;
   width: 80%;
   font-weight: 800;
   min-width: 50rem;
@@ -121,10 +121,92 @@ main {
 /*----BOTON----*/
 .hero-info a {
   border-radius: 1rem;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   background: var(--primario);
   color: var(--text-blanco);
   padding: 0.5rem 0;
   width: 12rem;
   text-align: center;
+}
+
+.hero-card-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*-----CARTA------*/
+
+.hero-card {
+  color: var(--text-blanco);
+  background-color: var(--secundario);
+  width: 30rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hero-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.hero-card-top h3 {
+  font-weight: 60rem;
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hero-card-top span {
+  background-color: var(--primario);
+  text-align: center;
+  width: 5rem;
+  padding: 0.3rem 0;
+  font-size: 0.875rem;
+  border-radius: 1rem;
+}
+
+.hero-card-creator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hero-card-creator img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.creator-info p:first-child {
+  color: var(--text-gris);
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.hero-card-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-card-price,
+.creator-info p:last-child {
+  font-size: 0.875rem;
+}
+
+.hero-card-price span {
+  font-weight: 700;
 }
