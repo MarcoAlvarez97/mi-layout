@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,500;1,600;1,700&display=swap");
+
 :root {
   /*bg colors*/
   --Negro: #02050e;
@@ -13,7 +15,7 @@
   padding: 0;
   box-sizing: border-box;
   /*TODO */
-  /* font-family: ;*/
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   list-style-type: none;
   /* font-size: 62.5%; /*1 rem = 10px*/
@@ -31,6 +33,16 @@ header {
 
 .logo {
   height: 40%;
+}
+/*---------ESTILO DE ICONO DE CARRITO ----------*/
+.cart-icon {
+  font-weight: 600;
+  height: 3rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  color: var(--text-blanco);
 }
 /*--------BARRA DE NAVEGACION---------*/
 .navbar,
@@ -56,4 +68,63 @@ header {
 .navbar-list li:first-child > a {
   color: var(--text-blanco);
   font-weight: 600;
+}
+
+/*------------MAIN----------*/
+
+main {
+  background: var(--Negro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-blanco);
+  width: 100%;
+}
+
+/*--- HERO SECTION ---*/
+
+#hero {
+  margin-top: 5rem;
+  padding: 5rem 0;
+  max-width: 100rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+
+.hero-info h1 {
+  font-size: 4.8rem;
+  width: 80%;
+  font-weight: 800;
+  min-width: 50rem;
+  color: var(--text-blanco);
+}
+
+.hero-info p {
+  font-size: 1.4rem;
+  width: 70%;
+  color: var(--text-gris);
+}
+
+.hero-info p > span {
+  font-weight: 800;
+}
+
+/*----BOTON----*/
+.hero-info a {
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  background: var(--primario);
+  color: var(--text-blanco);
+  padding: 0.5rem 0;
+  width: 12rem;
+  text-align: center;
 }
