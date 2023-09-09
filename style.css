@@ -129,11 +129,6 @@ main {
   text-align: center;
 }
 
-.hero-card-bottom {
-  display: flex;
-  justify-content: space-between;
-}
-
 /*-----CARTA------*/
 
 .hero-card {
@@ -176,6 +171,11 @@ main {
   padding: 0.188rem 0;
   font-size: 0.875rem;
   border-radius: 0.625rem;
+}
+
+.hero-card-bottom {
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-card-creator {
