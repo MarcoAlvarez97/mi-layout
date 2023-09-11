@@ -227,4 +227,89 @@ main {
 #info {
   padding: 4.375rem 0;
   max-width: 75rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 5rem;
+}
+
+#info h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.info-cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.info-card {
+  width: 18.75rem;
+  height: 18.125rem;
+  padding: 2.5rem 1.875rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  background-color: var(--secundario);
+  border-radius: 0.625rem;
+  gap: 1.25rem;
+}
+
+/*****DISCOVER********/
+
+#discover {
+  padding: 4.375rem 0;
+  max-width: 75rem;
+}
+
+.discover-info {
+  display: flex;
+  justify-content: center;
+  gap: 0.625rem;
+  margin-bottom: 3.125rem;
+}
+
+#discover h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  width: 45%;
+}
+
+.discover-text {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 1.25rem;
+}
+
+.discover-text p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--text-gray);
+}
+
+.discover-text a {
+  color: var(--text-white);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.discover-cards {
+  display: flex;
+  gap: 0.9375rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.discover-cards img {
+  width: 30%;
 }
