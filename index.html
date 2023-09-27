@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaquerys.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaquerys.css" />
+    <link rel="stylesheet" href="css/animaciones.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
 
     <title>Document</title>
   </head>
@@ -19,19 +25,22 @@
         <input type="checkbox" id="menu-toggle" />
 
         <ul class="navbar-list">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Descubre</a></li>
-          <li><a href="#">BTC</a></li>
-          <li><a href="#">Youtube</a></li>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#discover">Descubre</a></li>
+          <li><a href="#products">BTC</a></li>
+          <li>
+            <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+          </li>
           <li><a href="#">Contactanos</a></li>
         </ul>
 
         <label for="cart-toggle" class="cart-label">
-          <img
+          <!-- <img 
             src="img/cart-icon.svg"
             alt="Carrito de compras"
             class="cart-icon"
-          />
+          />-->
+          <i class="fa-solid fa-cart-shopping cart-icon"></i>
         </label>
         <input type="checkbox" id="cart-toggle" />
 
@@ -41,6 +50,7 @@
           <!-- NUESTRO CARRITO -->
 
           <div class="cart-item">
+            <
             <img src="img/cart-img.png" alt="NFT del carrito" />
 
             <div class="item-info">
@@ -49,7 +59,7 @@
               <span class="item-price">4.8 ETH</span>
             </div>
 
-            <div class="itemhandler">
+            <div class="item-handler">
               <span class="quantity-handler down">-</span>
               <span class="item-quantity">1</span>
               <span class="quantity-handler up">+</span>
@@ -65,7 +75,7 @@
               <span class="item-price">4.8 ETH</span>
             </div>
 
-            <div class="itemhandler">
+            <div class="item-handler">
               <span class="quantity-handler down">-</span>
               <span class="item-quantity">1</span>
               <span class="quantity-handler up">+</span>
@@ -81,7 +91,7 @@
               <span class="item-price">4.8 ETH</span>
             </div>
 
-            <div class="itemhandler">
+            <div class="item-handler">
               <span class="quantity-handler down">-</span>
               <span class="item-quantity">1</span>
               <span class="quantity-handler up">+</span>
@@ -97,7 +107,7 @@
               <span class="item-price">4.8 ETH</span>
             </div>
 
-            <div class="itemhandler">
+            <div class="item-handler">
               <span class="quantity-handler down">-</span>
               <span class="item-quantity">1</span>
               <span class="quantity-handler up">+</span>
@@ -113,7 +123,7 @@
               <span class="item-price">4.8 ETH</span>
             </div>
 
-            <div class="itemhandler">
+            <div class="item-handler">
               <span class="quantity-handler down">-</span>
               <span class="item-quantity">1</span>
               <span class="quantity-handler up">+</span>
@@ -129,7 +139,7 @@
               <span class="item-price">4.8 ETH</span>
             </div>
 
-            <div class="itemhandler">
+            <div class="item-handler">
               <span class="quantity-handler down">-</span>
               <span class="item-quantity">1</span>
               <span class="quantity-handler up">+</span>
@@ -145,6 +155,7 @@
 
           <button class="btn-add">Comprar</button>
         </div>
+        <div class="overlay"></div>
       </nav>
     </header>
 
@@ -152,7 +163,7 @@
       <!--?Hero Section-->
       <section id="hero">
         <div class="hero-info">
-          <h1>Descubre la nueva era de Crypto</h1>
+          <h1>Descubre la nueva era de <span>Crypto</span></h1>
 
           <p>
             NUCBA NFT es la primer Marketpkace educativo tecnológico de NFT, que
@@ -160,6 +171,7 @@
             elementos digitales existen desde hace mucho tiempo, pero
             <span>Nucba</span> como este.
           </p>
+          <a href="#">Be Nucber</a>
         </div>
 
         <div class="hero-card">
@@ -419,7 +431,7 @@
               <!--Info bottom-->
               <div class="product-bot">
                 <div class="offer-time">
-                  <img src="img/fire.pngg" alt="Fire" />
+                  <img src="img/fire.png" alt="Fire" />
                   <p>03:34:07</p>
                 </div>
 
